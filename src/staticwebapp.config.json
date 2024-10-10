@@ -11,6 +11,12 @@
     {
       "route": "/admin",
       "allowedRoles": ["admin"]
+    },
+    {
+      "route": "/*",
+      "headers": {
+        "permissions-policy": "geolocation=(self), microphone=()"
+      }
     }
   ],
   "responseOverrides": {
