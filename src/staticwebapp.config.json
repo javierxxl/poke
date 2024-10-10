@@ -15,7 +15,7 @@
     {
       "route": "/*",
       "headers": {
-        "permissions-policy": "geolocation=(self), microphone=()"
+        "permissions-policy": "geolocation=(self), microphone=(), camera=(), fullscreen=(self), payment=()"
       }
     }
   ],
