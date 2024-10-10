@@ -18,7 +18,7 @@
         "permissions-policy": "geolocation=(self), microphone=(), camera=(), fullscreen=(self), payment=()",
         "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
         "x-frame-options": "SAMEORIGIN",
-        "content-security-policy": "default-src 'self'"
+        "content-security-policy": "object-src 'none'"
       }
     }
   ],
